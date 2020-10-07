@@ -1,0 +1,22 @@
+.container {
+    margin: 2em auto;
+    max-width: 1200px;
+    box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.5);
+    border: 1px solid #DDD;
+    padding: 1em;
+}
+.clipboard-button {
+    display: none;
+}
+
+.clipboard--supported .clipboard-button {
+    display: initial;
+}
+
+.slide {
+    display: none;
+}
+
+.slide.slide--current {
+    display: block;
+}
